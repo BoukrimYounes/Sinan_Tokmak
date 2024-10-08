@@ -1,0 +1,15 @@
+{
+  "name": "sinantokmak",
+  "version": "1.0.0",
+  "description": "portfolio of sinan tokmak",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/css/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
+  },
+  "author": "Younes Boukrim",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
